@@ -2508,7 +2508,7 @@ openerp.ktv_sale.widget = function(erp_instance) {
 			$.when(new erp_instance.web.Model('res.company').get_func('search_read')([]).pipe(function(result) {company = result[0]}),
       new erp_instance.web.Model(self.osv_name).get_func('print_info')(self.record_id,[]).pipe(function(ret){
         print_context = ret;
-				ret.context_bill_date = erp_instance.web.str_to_datetime(ret.bill_date).toString('yyyy-MM-dd HH:mm');
+				ret.context_bill_date = erp_instance.web.str_to_datetime(ret.bill_datetime).toString('yyyy-MM-dd HH:mm');
       })).then(function(){
         var template_var = {
 					"print_context": print_context,
