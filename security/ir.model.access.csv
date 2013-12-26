@@ -1,6 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_ktv_buffet_config,ktv.buffet_config,model_ktv_buffer_config,ktv_sale.group_ktv_user,1,1,1,1
-access_ktv_buffet_config_special_Day,ktv.buffet_config_special_day,model_ktv_buffer_config,ktv_sale.group_ktv_user,1,1,1,1
+access_ktv_buffet_config,ktv.buffet_config,model_ktv_buffet_config,ktv_sale.group_ktv_user,1,1,1,1
+access_ktv_buffet_config_special_Day,ktv.buffet_config_special_day,model_ktv_buffet_config_special_Day,ktv_sale.group_ktv_user,1,1,1,1
 access_ktv_buyout_config,ktv.buyout_config,model_ktv_buyout_config,ktv_sale.group_ktv_user,1,1,1,1
 access_ktv_byouout_config_special_day,ktv.buyout_config_special_day,model_ktv_buyout_config_special_day,ktv_sale.group_ktv_user,1,1,1,1
 access_ktv_discount_card,ktv.discount_card,model_ktv_discount_card,ktv_sale.group_ktv_user,1,1,1,1
