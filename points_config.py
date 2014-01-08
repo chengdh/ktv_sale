@@ -33,6 +33,8 @@ class points_config(osv.osv):
       return 0
 
     ids = self.search(cr,uid,[],limit = 1,order = 'config_prior DESC')
+    if not ids:
+      return 0
     config = self.browse(cr,uid,ids[0])
     the_points = 0
     if fee_type == 'room_fee':
