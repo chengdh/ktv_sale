@@ -47,3 +47,4 @@ access_ktv_sales_voucher,ktv.sales_voucher,model_ktv_sales_voucher,ktv_sale.grou
 access_ktv_sales_voucher_type,ktv.sales_voucher_type,model_ktv_sales_voucher_type,ktv_sale.group_ktv_user,1,0,0,0
 access_ktv_song_ticket,ktv.song_ticket,model_ktv_song_ticket,ktv_sale.group_ktv_user,1,0,0,0
 access_ktv_work_shift_config,ktv.work_shift_config,model_ktv_work_shift_config,ktv_sale.group_ktv_user,1,0,0,0
+access_ktv_price_class,ktv.price_class,model_ktv_price_class,ktv_sale.group_ktv_user,1,0,0,0
