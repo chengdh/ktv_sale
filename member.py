@@ -9,7 +9,7 @@ class member(osv.osv):
     _name = "ktv.member"
     _descripton = "会员信息"
 
-    _rec_name = "member_card_no"
+    _rec_name = "member_no"
 
     def _compute_balance_and_points(self,cr,uid,ids,field_name,args,context):
       '''

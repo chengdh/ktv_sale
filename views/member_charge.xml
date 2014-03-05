@@ -60,4 +60,3 @@
     <menuitem action="action_member_charge" id="menu_action_member_charge" parent="menu_members" name="会员卡充值" sequence="5"/>
   </data>
 </openerp>
-
