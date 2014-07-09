@@ -3,7 +3,7 @@
   <data>
     <!--ktv根菜单-->
     <menuitem id="menu_ktv_sale_root" name="KTV系统" 
-      groups='group_ktv_casher,group_ktv_waiter,group_ktv_member_manager,group_ktv_waiter,group_ktv_manager' sequence="0" />
+      groups='group_ktv_casher,group_ktv_waiter,group_ktv_member_manager,group_ktv_waiter,group_ktv_manager' sequence="60" />
     <!--收银及咨客-->
     <menuitem id="menu_ktv_sale_operates"   parent="menu_ktv_sale_root" name="收银及咨客" sequence="1" /> 
     <!--会员卡管理-->
